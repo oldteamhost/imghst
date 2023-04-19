@@ -17,7 +17,7 @@
 #include <unistd.h>
 #endif
 
-#define VERSION "0.5"
+#define VERSION "0.8"
 #define MAX_BUF_SIZE 1024
 
 struct grab_options {
