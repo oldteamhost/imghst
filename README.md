@@ -1,49 +1,23 @@
 # imghst | ImageHost
-![alt text](https://i.imgur.com/Nkr7Jqe.png)
+![alt text](https://i.imgur.com/7SlZJb1.png)
 
 
-imghst - утилита для парсинга картинок с фотохостингов.
+**imghst** - is a utility for parsing pictures from photohosting sites.
 
-## Информация
-- **Поддерживает:** все форматы.
-- **Скорость:** 112ф / мин
-- **Скачивает фото:** в out/ или ваше место.
-- **Вывод программы:** Статус; Файл; Ссылка; Время; Количество;
+## Info
+- **Supports:** all formats.
+- **Speed:** 55p hit/min
+- **Program output:** File; Status; Time; Link;
+- **Completely cross-platform**
 
-## Запуск
-- Запустить cmd
-- cd [папка с программой]
-- imghst.exe -h
+## Compile linux
+ARCH  
+- sudo pacman -S curl
 
-## Скачать
-- **Последний build:** https://clck.ru/33YjVy
-- **Исправлено:** run(y,n).
-
+DEBIAN  
+- sudo apt-get install libcurl4-openssl-dev
+- -----------
+- git clone https://github.com/oldteamhost/imghst.git
+- cd imghst
+- make
 ------------------------------------
-
-## Стандартный запуск
-```
-imghst.exe -d [домен] -f [формат] -c [количество]
-```
-
-## Сложный запуск
-```
-imghst.exe -d [домен] -f [формат] -p [путь (вконце: /)] -m [режим: 1-2] -l [Длинна токена] -c [количество]
-```
-
-## Быстрый запуск
-```
-imghst.exe --imgur
-```
-
-```
-imghst.exe --lightshot
-```
-
-```
-imghst.exe --freeimage
-```
-
-```
-imghst.exe --pasteboard
-```
