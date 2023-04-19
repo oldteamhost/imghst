@@ -63,4 +63,3 @@ DEBIAN
 - git clone https://github.com/oldteamhost/imghst.git
 - cd imghst
 - make
-------------------------------------
