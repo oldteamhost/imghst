@@ -36,13 +36,13 @@ arguments output:
 ```
 # Default values
 ```
-domain - "",
-protocol - "https://",
-user-agent - "imghst by oldteam",
-path - "",
-format - ".png",
-token-length - 5,
-count - 100
+domain -          
+protocol -        https://
+user-agent -      "imghst by oldteam"
+path -            
+format -          .png
+token-length -    5
+count -           100
 ```
 ## Example usage config
 ``` C
