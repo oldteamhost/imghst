@@ -36,23 +36,17 @@ arguments output:
 ```
 # Default values
 ```
-
+domain - "",
+protocol - "https://",
+user-agent - "imghst by oldteam",
+path - "",
+format - ".png",
+token-length - 5,
+count - 100
 ```
 ## Example usage config
 ``` C
 ./imghst --cfg configs/imgur.cfg
-```
-```
-domain=i.imgur.com
-protocol=https
-user-agent=oldteam
-txt_path=false
-path=default
-format=.png
-token_length=5
-count=100
-timeout=false
-debug=false
 ```
 
 
