@@ -34,7 +34,7 @@ arguments output:
   --txt <PATH>          Save links in a text document.
   --cfg <PATH>          Use config for parsing.
 ```
-# Default values
+## Default values
 ```
 domain -          
 protocol -        https://
@@ -44,6 +44,7 @@ format -          .png
 token-length -    5
 count -           100
 ```
+
 ## Example usage config
 ``` C
 ./imghst --cfg configs/imgur.cfg
