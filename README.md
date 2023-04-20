@@ -34,7 +34,10 @@ arguments output:
   --txt <PATH>          Save links in a text document.
   --cfg <PATH>          Use config for parsing.
 ```
+# Default values
+```
 
+```
 ## Example usage config
 ``` C
 ./imghst --cfg configs/imgur.cfg
