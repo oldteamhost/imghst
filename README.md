@@ -1,5 +1,5 @@
 # imghst | ImageHost
-![alt text](https://i.imgur.com/HVXzRxW.jpg)
+![alt text](https://i.imgur.com/SVtWBEw.png)
 
 
 **imghst** - is a utility for parsing pictures from photohosting sites.
