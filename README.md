@@ -61,3 +61,6 @@ DEBIAN
 - git clone https://github.com/oldteamhost/imghst.git
 - cd imghst
 - make
+
+# Build
+Linux - [download](https://github.com/oldteamhost/imghst/blob/main/build/build-0.5.zip?raw=true)
